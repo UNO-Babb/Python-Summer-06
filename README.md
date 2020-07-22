@@ -10,7 +10,7 @@ We are going to start with the historical ciphers first.
 The Caesar cipher is named after Julius Caesar, who, according to Suetonius, used it with a shift of three (A becoming D when encrypting, and D becoming A when decrypting) to protect messages of military significance. While Caesar's was the first recorded use of this scheme, other substitution ciphers are known to have been used earlier.
 [Code.org Caesar Cipher](https://studio.code.org/s/csp4-2019/stage/7/puzzle/2)
 
-![Caesar Cipher Image](images/caesarCipher.svg)
+![Caesar Cipher Image](images/caesarCipher.png)
 #### CaesarCipher.py
 The program has the ability to encode a message. It does this by going through each letter in the message, finding that letter's location in the alphabet. Then the **key** value is added to the letter location. The letter of the new location is returned. If the letter is beyond the bounds of the alphabet, then it wraps around the front ***(Z + 2 = B)***.
 
