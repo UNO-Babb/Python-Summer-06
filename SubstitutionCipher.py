@@ -22,12 +22,6 @@ def encode(message, key):
 
     return secret
 
-def decode(message, key):
-    alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    message = message.upper()
-    plaintext = ""
-
-    return plaintext
 
 #--------------------------------------------------------------------
 
@@ -63,14 +57,3 @@ def generateRandomKey():
         key += letter
 
     return key
-
-
-
-def main():
-    message = input("Enter a message: ")
-    key = input("Enter a key: ")
-
-    secret = encode(message, key)
-    print ("Encrypted:", secret)
-    #plaintext = decode(secret, key)
-    #print ("Decrypted:", plaintext)

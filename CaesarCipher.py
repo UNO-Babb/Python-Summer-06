@@ -1,8 +1,7 @@
 #Caesar Cipher
-#The Caesar cipher moves each letter forward in the alphabet by
-#the key.  The resulting message has all the letters advanced by 'key'
-#letters.
-#To run the code, run the main() function
+#The Caesar cipher moves each letter forward in the alphabet by the key.
+#The resulting message has all the letters advanced by 'key' letters.
+
 
 def encode(message, key):
     alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -17,6 +16,3 @@ def encode(message, key):
             secret = secret + letter
 
     return secret
-
-#def decode(message, key):
-    #We will want to decode the message here.
