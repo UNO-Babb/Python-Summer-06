@@ -29,5 +29,3 @@ def encode(message, keyword):
 
 
     return secret
-
-print(keywordToNumber("key"))
