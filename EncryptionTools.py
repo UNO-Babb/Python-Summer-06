@@ -22,7 +22,7 @@ def main():
     #print ("Substitution Encrypted:", secret)
 
     #Enigma Cipher
-    #setStart("A", "B", "C")
+    #Enigma.setStart("A", "B", "C")
     #secret = Enigma.encode(message)
     #print ("Enigma Encrypted:", secret)
 
