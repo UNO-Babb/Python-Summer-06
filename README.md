@@ -63,7 +63,7 @@ To break a password in real time, requires a lot of processing power. So there i
 ###PasswordCracker.py
 There are 3 locked files.
 
-We have a program that can generate every possible password. We also know the follwing information about the password "rules" for each of the three locked files.
+We have a program that can generate every possible password. We also know the following information about the password "rules" for each of the three locked files.
 - LockedFile1.py
   - We know the password is only 4 characters and only lowercase letters
 - LockedFile2.py
