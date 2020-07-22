@@ -29,8 +29,8 @@ We will need to use the previous Caesar Cipher to complete the Vigenère Cipher.
 
 ### Substitution Cipher
 In a substitution cipher, the normal alphabet is substituted with a 1:1 mapping of a scrambled alphabet. This type of encryption can be attacked based on a frequency analysis to determine the original letters based on their frequency in the encrypted message vs. the frequency in the English language.
-[Code.org Substitution Cipher](https://studio.code.org/s/csp4-2019/stage/7/puzzle/5)
-[NSA Crypto Challenge](https://cryptochallenge.io/)
+- [Code.org Substitution Cipher](https://studio.code.org/s/csp4-2019/stage/7/puzzle/5)
+- [NSA Crypto Challenge](https://cryptochallenge.io/)
 ![Substitution Cipher Image](images/Substitution_cipher.jpg)
 #### SubstitutionCipher.py
 This has several functions to generate a "key". We will explore how we could utilize each of them.
